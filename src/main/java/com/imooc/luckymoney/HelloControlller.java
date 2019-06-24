@@ -17,6 +17,7 @@ public class HelloControlller {
 
     @GetMapping("/hello")
     public String say(){
+        String say="";
         return "说明："+limitConfig.getDescription();
     }
 }
